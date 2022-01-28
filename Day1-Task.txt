@@ -1,0 +1,25 @@
+2) Write a blog on difference between HTTP1.1 vs HTTP2
+Ans:-
+
+	HTTP1.1:
+* Sends the message as plain text
+* Client needs to send repeated request to fetch additional resources.
+* Has multiple TCP connections.
+
+
+	HTTP2:
+* Encodes the message and arrange them carefully.
+* Client sends only one request.
+* Has single TCP connection.
+
+
+3) Write a blog about objects and its internal representation in Javascript.
+Ans:-
+
+Objects in JS is the most important data-type which stores multiple values. An object can contain n number of values with different data-types. 
+In objects, variables are assgined a values which are given by a pointer or reference to that value which acts as a location. Objects are defined using the curly braces "{" and "}".
+
+i) A JS object has properties and can be accessed using the '.' (dot).
+ii) Object variable and property name are case sensitive.
+iii) Unassigned properties are undefined.
+iv) Object can be created using curly braces, using constructor, using 'new' keyword, or Object.create method.
